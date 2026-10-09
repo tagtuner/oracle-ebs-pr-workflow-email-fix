@@ -11,7 +11,6 @@ Sanitized public cookbooks from real PROD recoveries. **No passwords, no real IP
 | Doc | Purpose |
 |---|---|
 | **[docs/mailer-smtp-ecx-restore-2026-10/COOKBOOK.md](./docs/mailer-smtp-ecx-restore-2026-10/COOKBOOK.md)** | Full commands + **actual sanitized outputs** + terminal PNGs |
-| **[LINKEDIN_POST_2026-10-09.md](./LINKEDIN_POST_2026-10-09.md)** | LinkedIn draft for this achievement |
 | `scripts/apply_mailer_smtp_ecx_restore.py` | Env-based restore (AUTH → ECX encrypt → JVM bounce → start) |
 | `scripts/ro_mailer_status.py` | RO status (passwords classified, never printed) |
 | `scripts/render_terminal_pngs.py` | Rebuild terminal screenshot PNGs |
@@ -43,8 +42,6 @@ Production runbook when **Purchase Requisition Action Required** emails (`PO_REQ
 | **[docs/architecture-two-pipes.md](./docs/architecture-two-pipes.md)** | Why inline vs attachment breaks |
 | **[docs/recovery-checklist.md](./docs/recovery-checklist.md)** | Ordered recovery checklist |
 | **[docs/failed-experiments.md](./docs/failed-experiments.md)** | C1/C2/C2b post-mortem |
-| **[LINKEDIN_POST_2026-10-09.md](./LINKEDIN_POST_2026-10-09.md)** | LinkedIn draft (Oct 2026) |
-| **[LINKEDIN_POST.md](./LINKEDIN_POST.md)** | LinkedIn draft (Aug 2026) |
 | **[scripts/](./scripts/)** | Python helpers (env-based, no hardcoded secrets) |
 | **[.env.example](./.env.example)** | Copy to `.env` locally — never commit |
 
@@ -56,8 +53,6 @@ Production runbook when **Purchase Requisition Action Required** emails (`PO_REQ
 oracle-ebs-pr-workflow-email-fix/
 ├── README.md
 ├── COOKBOOK.md                          # Aug 2026 JSP path
-├── LINKEDIN_POST.md
-├── LINKEDIN_POST_2026-10-09.md          # Oct 2026 achievement
 ├── REPO_STRUCTURE.md
 ├── LICENSE
 ├── requirements.txt

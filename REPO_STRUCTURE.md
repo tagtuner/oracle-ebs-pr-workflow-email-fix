@@ -6,7 +6,6 @@ Published layout for **oracle-ebs-pr-workflow-email-fix**.
 oracle-ebs-pr-workflow-email-fix/
 ├── README.md                 # Start here — overview + quick start
 ├── COOKBOOK.md               # Full runbook: commands + example outputs
-├── LINKEDIN_POST.md          # Ready-to-edit social post drafts
 ├── REPO_STRUCTURE.md         # This file
 ├── LICENSE                   # MIT
 ├── requirements.txt          # Python: oracledb
